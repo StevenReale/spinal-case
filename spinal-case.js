@@ -16,7 +16,7 @@ function spinalCase(str) {
     }
     //if the current character is a space or underscore, changes it to "-"
     else if (charArr[i] == " "| charArr[i] == "_") {
-      charArr[i]="-"
+      charArr[i]="-";
     }
   }
   //converts array back into a string and returns
